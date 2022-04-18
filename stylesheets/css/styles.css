@@ -81,6 +81,37 @@ svg {
   fill: currentColor;
 }
 
+.btn-download {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 900;
+  color: #fafafa;
+  border-radius: 1.8125rem;
+  border: none;
+  background-color: #4d96a9;
+  padding: 1rem 2.5rem;
+  width: 12.0625rem;
+}
+
+.btn-download__v {
+  color: #8fe3f9;
+  margin-left: 0.125rem;
+}
+
+.btn-what {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 900;
+  color: #fafafa;
+  border-radius: 1.8125rem;
+  border: none;
+  background-color: #855fb1;
+  padding: 1rem 1.8125rem;
+  width: 8.6875rem;
+}
+
 .main__wrapper {
   margin: 0 1.5rem;
 }
@@ -106,6 +137,7 @@ svg {
 .group-chat__container-txt {
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .group-chat__title {
@@ -121,7 +153,16 @@ svg {
   line-height: 1.625rem;
   color: #87879d;
   font-weight: 500;
-  margin-bottom: 2rem;
+}
+
+.group-chat__container-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group-chat__btn-download {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

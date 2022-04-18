@@ -1,0 +1,28 @@
+@mixin btn {
+  font-family: $font;
+  font-size: 1rem;
+  line-height: rem(26px);
+  font-weight: $bold;
+  color: $white;
+  border-radius: rem(29px);
+  border: none;
+}
+
+.btn-download {
+  @include btn();
+  background-color: $dark-blue;
+  padding: 1rem rem(40px);
+  width: rem(193px);
+}
+
+.btn-download__v {
+  color: $light-blue;
+  margin-left: rem(2px);
+}
+
+.btn-what {
+  @include btn();
+  background-color: $dark-purple;
+  padding: 1rem rem(29px);
+  width: rem(139px);
+}
