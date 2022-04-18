@@ -200,4 +200,28 @@ svg {
   margin: 4rem auto 0 auto;
 }
 
+.smarter {
+  margin: 4em auto 0 auto;
+  max-width: 20.4375rem;
+}
+
+.media-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 21.875rem) {
+  .media-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.media-grid__img {
+  max-width: 9.4375rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

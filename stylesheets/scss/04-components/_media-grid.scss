@@ -1,0 +1,16 @@
+.media-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @include breakpoint(rem(350px)){
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.media-grid__img {
+    max-width: rem(151px);
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+}
