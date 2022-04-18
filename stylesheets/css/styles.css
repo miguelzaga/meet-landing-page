@@ -112,6 +112,37 @@ svg {
   width: 8.6875rem;
 }
 
+.separator {
+  position: relative;
+  width: 3.5rem;
+  height: 8.75rem;
+}
+
+.separator__vl {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-right: 1px rgba(135, 135, 157, 0.2509803922) solid;
+}
+
+.separator__circle {
+  position: absolute;
+  background-color: #fafafa;
+  width: 3.5rem;
+  height: 3.5rem;
+  bottom: 0;
+  border: 1px rgba(135, 135, 157, 0.2509803922) solid;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #87879d;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
 .main__wrapper {
   margin: 0 1.5rem;
 }
@@ -163,6 +194,10 @@ svg {
 
 .group-chat__btn-download {
   margin-bottom: 1rem;
+}
+
+.group-chat__separator {
+  margin: 4rem auto 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

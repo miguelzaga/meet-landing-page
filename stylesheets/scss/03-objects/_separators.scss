@@ -1,0 +1,30 @@
+.separator {
+    position: relative;
+    width: rem(56px);
+    height: rem(140px);
+}
+
+.separator__vl {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-right: 1px $grey-25 solid;
+}
+
+.separator__circle {
+    position: absolute;
+    background-color: $white;
+    width: rem(56px);
+    height: rem(56px);
+    bottom: 0;
+    border: 1px $grey-25 solid;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $grey;
+    font-family: $font;
+    font-weight: $bold;
+    font-size: 1rem;
+    line-height: rem(26px);
+}

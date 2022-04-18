@@ -17,18 +17,22 @@
 }
 
 .group-chat__description {
-    font-size: 1em;
-    line-height: rem(26px);
-    color: $grey;
-    font-weight: $regular;
+  font-size: 1em;
+  line-height: rem(26px);
+  color: $grey;
+  font-weight: $regular;
 }
 
 .group-chat__container-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .group-chat__btn-download {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.group-chat__separator {
+  margin: 4rem auto 0 auto;
 }
