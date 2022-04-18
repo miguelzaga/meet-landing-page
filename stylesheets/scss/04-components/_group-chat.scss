@@ -1,0 +1,24 @@
+.group-chat {
+  margin-top: 3em;
+}
+
+.group-chat__container-txt {
+  font-family: $font;
+  text-align: center;
+}
+
+.group-chat__title {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  line-height: rem(44px);
+  color: $black;
+  font-weight: $bold;
+}
+
+.group-chat__description {
+    font-size: 1em;
+    line-height: rem(26px);
+    color: $grey;
+    font-weight: $regular;
+    margin-bottom: 2rem;
+}

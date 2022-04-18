@@ -81,4 +81,47 @@ svg {
   fill: currentColor;
 }
 
+.main__wrapper {
+  margin: 0 1.5rem;
+}
+
+.header {
+  padding: 3rem 0 3.375rem 0;
+  text-align: center;
+}
+
+.hero {
+  width: 110.4%;
+}
+
+.hero__img {
+  position: relative;
+  right: 5.2%;
+}
+
+.group-chat {
+  margin-top: 3em;
+}
+
+.group-chat__container-txt {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.group-chat__title {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  color: #28283d;
+  font-weight: 900;
+}
+
+.group-chat__description {
+  font-size: 1em;
+  line-height: 1.625rem;
+  color: #87879d;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
