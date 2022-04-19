@@ -3,6 +3,9 @@
     width: rem(56px);
     height: rem(140px);
     margin: 4rem auto 0 auto;
+    @include breakpoint ($sm-md){
+        margin-top: 5em;
+    }
 }
 
 .separator__vl {

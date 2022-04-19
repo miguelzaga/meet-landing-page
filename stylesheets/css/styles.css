@@ -118,6 +118,11 @@ svg {
   height: 8.75rem;
   margin: 4rem auto 0 auto;
 }
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
+  .separator {
+    margin-top: 5em;
+  }
+}
 
 .separator__vl {
   position: absolute;
@@ -198,21 +203,38 @@ svg {
 }
 
 .group-chat {
-  margin-top: 3em;
+  margin: 3em auto 0 auto;
+  max-width: 28.5625rem;
+}
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
+  .group-chat {
+    margin-top: 4.5rem;
+  }
 }
 
 .group-chat__container-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .group-chat__title {
+  max-width: 17.1875rem;
   margin-bottom: 1.5rem;
   font-size: 2.5rem;
   line-height: 2.75rem;
   color: #28283d;
   font-weight: 900;
+}
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
+  .group-chat__title {
+    max-width: 21.1875rem;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
 }
 
 .group-chat__description {
@@ -227,9 +249,20 @@ svg {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
+  .group-chat__container-btn {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 
 .group-chat__btn-download {
   margin-bottom: 1rem;
+}
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
+  .group-chat__btn-download {
+    margin: 0 1rem 0 0;
+  }
 }
 
 .smarter {
