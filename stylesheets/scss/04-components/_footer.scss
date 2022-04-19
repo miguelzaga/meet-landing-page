@@ -13,17 +13,16 @@ footer {
 }
 
 .footer__bg--mobile {
-  @include breakpoint(rem(400px)){
+  @include breakpoint($sm-md){
     display: none;
   }
 }
 
 .footer__bg--tablet {
   display: none;
-  @include breakpoint(rem(400px)){
+  @include breakpoint($sm-md){
     display: block;
   }
-
 }
 
 .footer__blue-bg {

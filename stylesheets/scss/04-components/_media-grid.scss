@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    @include breakpoint(rem(350px)){
+    @include breakpoint($sm){
         flex-direction: row;
         flex-wrap: wrap;
     }

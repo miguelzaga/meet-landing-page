@@ -3,6 +3,8 @@ $sm: rem(375px);
 $md: rem(768px);
 $lg: rem(1440px);
 
+$sm-md: calc(($sm + $md)/2);
+
 // Colors
 $dark-blue: #4d96a9;
 $light-blue: #8fe3f9;

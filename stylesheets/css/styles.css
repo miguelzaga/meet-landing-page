@@ -239,7 +239,7 @@ svg {
   justify-content: space-between;
   align-items: center;
 }
-@media (min-width: 21.875rem) {
+@media (min-width: 23.4375rem) {
   .media-grid {
     flex-direction: row;
     flex-wrap: wrap;
@@ -266,7 +266,7 @@ footer {
   height: 26.75rem;
 }
 
-@media (min-width: 25rem) {
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
   .footer__bg--mobile {
     display: none;
   }
@@ -275,7 +275,7 @@ footer {
 .footer__bg--tablet {
   display: none;
 }
-@media (min-width: 25rem) {
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
   .footer__bg--tablet {
     display: block;
   }
