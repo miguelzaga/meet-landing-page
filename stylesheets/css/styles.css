@@ -156,10 +156,45 @@ svg {
 .hero {
   width: 110.4%;
 }
+@media (min-width: 48rem) {
+  .hero {
+    height: 18.9375rem;
+    justify-content: space-between;
+  }
+}
 
 .hero__img {
   position: relative;
   right: 5.2%;
+}
+@media (min-width: 48rem) {
+  .hero__img {
+    display: none;
+  }
+}
+
+.hero__img-left {
+  display: none;
+  position: absolute;
+  width: 24.625rem;
+}
+@media (min-width: 48rem) {
+  .hero__img-left {
+    display: block;
+    left: -1.625rem;
+  }
+}
+
+.hero__img-right {
+  display: none;
+  position: absolute;
+  width: 24.625rem;
+}
+@media (min-width: 48rem) {
+  .hero__img-right {
+    display: block;
+    right: -1.625rem;
+  }
 }
 
 .group-chat {

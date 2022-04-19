@@ -1,8 +1,38 @@
 .hero {
     width: calc(100% + 10.4%);
+    @include breakpoint($md){
+        // display: flex;
+        height: rem(303px);
+        justify-content: space-between;
+        // width: calc(100% + 6.77%);
+    }
 }
 
 .hero__img {
     position: relative;
     right: calc(10.4% / 2);
+    @include breakpoint($md){
+        display: none;
+        // right: calc(6.77% / 2);
+    }
+}
+
+.hero__img-left {
+    display: none;
+    position: absolute;
+    width: rem(394px);
+    @include breakpoint($md){
+        display: block;
+        left: rem(-26px);
+    }
+}
+
+.hero__img-right {
+    display: none;
+    position: absolute;
+    width: rem(394px);
+    @include breakpoint($md){
+        display: block;
+        right: rem(-26px);
+    }
 }
