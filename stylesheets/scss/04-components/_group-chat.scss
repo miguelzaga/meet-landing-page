@@ -18,22 +18,13 @@
 .group-chat__title {
   max-width: rem(275px);
   margin-bottom: 1.5rem;
-  font-size: 2.5rem;
-  line-height: rem(44px);
-  color: $black;
-  font-weight: $bold;
   @include breakpoint($sm-md) {
     max-width: rem(339px);
-    font-size: rem(48px);
-    line-height: rem(48px);
   }
 }
 
 .group-chat__description {
-  font-size: 1em;
-  line-height: rem(26px);
   color: $grey;
-  font-weight: $regular;
 }
 
 .group-chat__container-btn {

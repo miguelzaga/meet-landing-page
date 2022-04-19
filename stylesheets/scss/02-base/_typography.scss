@@ -1,3 +1,14 @@
+h1 {
+  color: $black;
+  font-size: 2.5rem;
+  line-height: rem(44px);
+  font-weight: $bold;
+  @include breakpoint($sm-md) {
+    font-size: rem(48px);
+    line-height: rem(48px);
+  }
+}
+
 h2 {
   font-size: 2rem;
   line-height: rem(36px);
@@ -6,4 +17,10 @@ h2 {
     font-size: rem(40px);
     line-height: rem(44px);
   }
+}
+
+p {
+  font-size: 1em;
+  line-height: rem(26px);
+  font-weight: $regular;
 }

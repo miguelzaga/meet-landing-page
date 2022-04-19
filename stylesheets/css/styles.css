@@ -81,6 +81,19 @@ svg {
   fill: currentColor;
 }
 
+h1 {
+  color: #28283d;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  font-weight: 900;
+}
+@media (min-width: calc((23.4375rem + 48rem) / 2)) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
 h2 {
   font-size: 2rem;
   line-height: 2.25rem;
@@ -91,6 +104,12 @@ h2 {
     font-size: 2.5rem;
     line-height: 2.75rem;
   }
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.625rem;
+  font-weight: 500;
 }
 
 .btn-download {
@@ -236,24 +255,15 @@ h2 {
 .group-chat__title {
   max-width: 17.1875rem;
   margin-bottom: 1.5rem;
-  font-size: 2.5rem;
-  line-height: 2.75rem;
-  color: #28283d;
-  font-weight: 900;
 }
 @media (min-width: calc((23.4375rem + 48rem) / 2)) {
   .group-chat__title {
     max-width: 21.1875rem;
-    font-size: 3rem;
-    line-height: 3rem;
   }
 }
 
 .group-chat__description {
-  font-size: 1em;
-  line-height: 1.625rem;
   color: #87879d;
-  font-weight: 500;
 }
 
 .group-chat__container-btn {
@@ -323,9 +333,6 @@ h2 {
 
 .smarter__description {
   color: #87879d;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.625rem;
 }
 
 .smarter__description--br::before {
