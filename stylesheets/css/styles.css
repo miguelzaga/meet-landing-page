@@ -269,6 +269,11 @@ svg {
   margin: 4em auto 0 auto;
   max-width: 20.4375rem;
 }
+@media (min-width: 48rem) {
+  .smarter {
+    max-width: none;
+  }
+}
 
 .smarter__container-txt {
   font-family: "Red Hat Display", sans-serif;
@@ -313,11 +318,24 @@ svg {
     flex-wrap: wrap;
   }
 }
+@media (min-width: 48rem) {
+  .media-grid {
+    flex-wrap: nowrap;
+    width: 43.0625rem;
+    margin: 0 auto 0 auto;
+  }
+}
 
 .media-grid__img {
   max-width: 9.4375rem;
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
+}
+@media (min-width: 48rem) {
+  .media-grid__img {
+    max-width: 10.25rem;
+    margin-bottom: 0;
+  }
 }
 
 footer {

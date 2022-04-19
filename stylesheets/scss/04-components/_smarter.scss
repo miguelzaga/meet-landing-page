@@ -1,6 +1,9 @@
 .smarter {
   margin: 4em auto 0 auto;
   max-width: rem(calc(2 * 151px + 25px));
+  @include breakpoint($md){
+    max-width: none;
+  }
 }
 
 .smarter__container-txt {

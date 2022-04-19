@@ -7,10 +7,19 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+    @include breakpoint($md){
+        flex-wrap: nowrap;
+        width: rem(689px);
+        margin: 0 auto 0 auto;
+    }
 }
 
 .media-grid__img {
     max-width: rem(151px);
     margin-bottom: 1.5rem;
     border-radius: 0.5rem;
+    @include breakpoint($md){
+        max-width: rem(164px);
+        margin-bottom: 0;
+    }
 }
