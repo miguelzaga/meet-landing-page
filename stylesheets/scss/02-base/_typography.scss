@@ -1,0 +1,9 @@
+h2 {
+  font-size: 2rem;
+  line-height: rem(36px);
+  font-weight: $bold;
+  @include breakpoint($md) {
+    font-size: rem(40px);
+    line-height: rem(44px);
+  }
+}

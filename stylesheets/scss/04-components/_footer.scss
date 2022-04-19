@@ -13,14 +13,14 @@ footer {
 }
 
 .footer__bg--mobile {
-  @include breakpoint($sm-md){
+  @include breakpoint($sm-md) {
     display: none;
   }
 }
 
 .footer__bg--tablet {
   display: none;
-  @include breakpoint($sm-md){
+  @include breakpoint($sm-md) {
     display: block;
   }
 }
@@ -45,10 +45,12 @@ footer {
 }
 
 .footer__title {
-  font-size: 2rem;
-  line-height: rem(36px);
-  font-weight: $bold;
-  margin-bottom: 1.5rem;
+  width: rem(327px);
+  margin: 0 auto 1.5rem auto;
+  @include breakpoint($md) {
+    width: rem(457px);
+    margin-bottom: 2rem;
+  }
 }
 
 .footer__description {
@@ -56,6 +58,10 @@ footer {
   font-size: rem(18px);
   line-height: rem(26px);
   margin-bottom: 2rem;
+  max-width: rem(553px);
+  @include breakpoint($md){
+    margin-bottom: rem(40px);
+  }
 }
 
 .footer__btn-download.btn-download {
