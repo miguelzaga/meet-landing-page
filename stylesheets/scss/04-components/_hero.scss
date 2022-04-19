@@ -1,11 +1,16 @@
 .hero {
     width: calc(100% + 10.4%);
     @include breakpoint($md){
-        // display: flex;
         height: rem(303px);
         justify-content: space-between;
-        // width: calc(100% + 6.77%);
     }
+    @include breakpoint($md-lg){
+        height: clamp(0.1px, calc($lg - 100vw), rem(303px));
+        margin-top: -0.1px;
+    }
+    @include breakpoint($lg){
+    }
+
 }
 
 .hero__img {
@@ -13,7 +18,6 @@
     right: calc(10.4% / 2);
     @include breakpoint($md){
         display: none;
-        // right: calc(6.77% / 2);
     }
 }
 
@@ -25,6 +29,10 @@
         display: block;
         left: rem(-26px);
     }
+    @include breakpoint($md-lg){
+        display: block;
+        left: -2rem;
+    }
 }
 
 .hero__img-right {
@@ -33,6 +41,6 @@
     width: rem(394px);
     @include breakpoint($md){
         display: block;
-        right: rem(-26px);
+        right: -2rem;
     }
 }

@@ -93,6 +93,12 @@ h1 {
     line-height: 3rem;
   }
 }
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
 
 h2 {
   font-size: 2rem;
@@ -110,6 +116,15 @@ p {
   font-size: 1em;
   line-height: 1.625rem;
   font-weight: 500;
+}
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .btn-download {
@@ -154,6 +169,11 @@ p {
     margin-top: 5em;
   }
 }
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .separator {
+    margin-top: 4.5rem;
+  }
+}
 
 .separator__vl {
   position: absolute;
@@ -183,7 +203,6 @@ p {
 .main__wrapper {
   margin: 0 1.5rem;
 }
-
 .header {
   padding: 3rem 0 3.375rem 0;
   text-align: center;
@@ -203,7 +222,12 @@ p {
     justify-content: space-between;
   }
 }
-
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .hero {
+    height: clamp(0.1px, 90rem - 100vw, 18.9375rem);
+    margin-top: -0.1px;
+  }
+}
 .hero__img {
   position: relative;
   right: 5.2%;
@@ -225,6 +249,12 @@ p {
     left: -1.625rem;
   }
 }
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .hero__img-left {
+    display: block;
+    left: -2rem;
+  }
+}
 
 .hero__img-right {
   display: none;
@@ -234,7 +264,7 @@ p {
 @media (min-width: 48rem) {
   .hero__img-right {
     display: block;
-    right: -1.625rem;
+    right: -2rem;
   }
 }
 
@@ -245,6 +275,12 @@ p {
 @media (min-width: calc((23.4375rem + 48rem) / 2)) {
   .group-chat {
     margin-top: 4.5rem;
+  }
+}
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .group-chat {
+    max-width: 33.75rem;
+    margin-top: 0;
   }
 }
 
@@ -264,6 +300,11 @@ p {
 @media (min-width: calc((23.4375rem + 48rem) / 2)) {
   .group-chat__title {
     max-width: 21.1875rem;
+  }
+}
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .group-chat__title {
+    max-width: 27.8125rem;
   }
 }
 
@@ -289,6 +330,12 @@ p {
 @media (min-width: calc((23.4375rem + 48rem) / 2)) {
   .group-chat__btn-download {
     margin: 0 1rem 0 0;
+  }
+}
+
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .group-chat__separator {
+    margin-top: 6.875rem;
   }
 }
 

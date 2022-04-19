@@ -4,6 +4,10 @@
   @include breakpoint($sm-md) {
     margin-top: rem(72px);
   }
+  @include breakpoint($md-lg) {
+    max-width: rem(540px);
+    margin-top: 0;
+  }
 }
 
 .group-chat__container-txt {
@@ -21,6 +25,9 @@
   @include breakpoint($sm-md) {
     max-width: rem(339px);
   }
+  @include breakpoint($md-lg) {
+    max-width: rem(445px);
+  }
 }
 
 .group-chat__description {
@@ -31,7 +38,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include breakpoint($sm-md){
+  @include breakpoint($sm-md) {
     flex-direction: row;
     justify-content: center;
   }
@@ -39,7 +46,14 @@
 
 .group-chat__btn-download {
   margin-bottom: 1rem;
-  @include breakpoint($sm-md){
+  @include breakpoint($sm-md) {
     margin: 0 1rem 0 0;
   }
 }
+
+.group-chat__separator {
+  @include breakpoint($md-lg) {
+    margin-top: rem(110px);
+  }
+}
+

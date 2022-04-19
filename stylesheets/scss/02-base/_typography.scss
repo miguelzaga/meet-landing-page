@@ -7,6 +7,10 @@ h1 {
     font-size: rem(48px);
     line-height: rem(48px);
   }
+  @include breakpoint($md-lg) {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
 }
 
 h2 {
@@ -23,4 +27,7 @@ p {
   font-size: 1em;
   line-height: rem(26px);
   font-weight: $regular;
+  @include breakpoint($md-lg) {
+    font-size: rem(18px);
+  }
 }
