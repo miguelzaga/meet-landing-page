@@ -1,4 +1,7 @@
 .header {
     padding: 3rem 0 rem(54px) 0;
     text-align: center;
+    @include breakpoint($md-lg){
+        padding: 5rem 0 rem(61px) 0;
+    }
 }

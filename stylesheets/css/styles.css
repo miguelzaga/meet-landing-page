@@ -188,6 +188,11 @@ p {
   padding: 3rem 0 3.375rem 0;
   text-align: center;
 }
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .header {
+    padding: 5rem 0 3.8125rem 0;
+  }
+}
 
 .hero {
   width: 110.4%;

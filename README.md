@@ -93,6 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Hexadecimal color code for transparency](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4) - Helped me find a color for the border of the separators so I didn't have to do complicated maneuvers to avoid the children to be affected by opacity.
 - [Injecting a Line Break](https://css-tricks.com/injecting-line-break/) - It helped me inject a line break so that the text in mobile would look like the design in a certain section.
+- [How To Edit Your Commits with 'git commit --amend'](https://smartlogic.io/blog/git-commit-amend/) - Very handy git command that I learned, haha made a bunch of mistakes in commits and was able to change them.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
