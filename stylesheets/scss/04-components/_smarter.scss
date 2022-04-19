@@ -10,6 +10,10 @@
   font-family: $font;
   margin-top: 4em;
   text-align: center;
+  @include breakpoint($md){
+    margin: 3em auto 0 auto;
+    width: rem(573px);
+  }
 }
 
 .smarter__subtitle {
@@ -28,11 +32,26 @@
     line-height: rem(36px);
     font-weight: $bold;
     margin-bottom: 2rem;
+    @include breakpoint($md){
+      width: rem(445px);
+      margin-left: auto;
+      margin-right: auto;
+      font-size: rem(40px);
+      line-height: rem(44px);
+    }
 }
 
 .smarter__description {
-    color: $grey;
-    font-weight: $regular;
-    font-size: 1rem;
-    line-height: rem(26px);
+  color: $grey;
+  font-weight: $regular;
+  font-size: 1rem;
+  line-height: rem(26px);
+}
+
+.smarter__description--br::before {
+  content: "\A";
+  white-space: pre;
+  @include breakpoint($md){
+    white-space: normal;
+  }
 }

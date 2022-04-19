@@ -280,6 +280,12 @@ svg {
   margin-top: 4em;
   text-align: center;
 }
+@media (min-width: 48rem) {
+  .smarter__container-txt {
+    margin: 3em auto 0 auto;
+    width: 35.8125rem;
+  }
+}
 
 .smarter__subtitle {
   color: #4d96a9;
@@ -298,12 +304,31 @@ svg {
   font-weight: 900;
   margin-bottom: 2rem;
 }
+@media (min-width: 48rem) {
+  .smarter__title {
+    width: 27.8125rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+}
 
 .smarter__description {
   color: #87879d;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.625rem;
+}
+
+.smarter__description--br::before {
+  content: "\a";
+  white-space: pre;
+}
+@media (min-width: 48rem) {
+  .smarter__description--br::before {
+    white-space: normal;
+  }
 }
 
 .media-grid {

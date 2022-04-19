@@ -92,7 +92,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Hexadecimal color code for transparency](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4) - Helped me find a color for the border of the separators so I didn't have to do complicated maneuvers to avoid the children to be affected by opacity.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Injecting a Line Break](https://css-tricks.com/injecting-line-break/) - It helped me inject a line break so that the text in mobile would look like the design in a certain section.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
