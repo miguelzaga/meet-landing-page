@@ -252,4 +252,75 @@ svg {
   border-radius: 0.5rem;
 }
 
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 1.6875rem;
+}
+
+.footer__bg {
+  position: absolute;
+  z-index: -2;
+  height: 26.75rem;
+}
+
+@media (min-width: 25rem) {
+  .footer__bg--mobile {
+    display: none;
+  }
+}
+
+.footer__bg--tablet {
+  display: none;
+}
+@media (min-width: 25rem) {
+  .footer__bg--tablet {
+    display: block;
+  }
+}
+
+.footer__blue-bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 26.75rem;
+  background-color: #4d96a9;
+  opacity: 89.55%;
+}
+
+.footer__container-txt {
+  padding-top: 5.75rem;
+  margin: 0 1.5rem 0 1.5rem;
+  color: #fafafa;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.footer__description {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  margin-bottom: 2rem;
+}
+
+.footer__btn-download.btn-download {
+  background-color: #855fb1;
+  margin: 0 auto 0 auto;
+}
+
+.footer__btn-download .btn-download__v {
+  color: #d9b8ff;
+}
+
 /*# sourceMappingURL=styles.css.map */
