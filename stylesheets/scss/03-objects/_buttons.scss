@@ -6,13 +6,23 @@
   color: $white;
   border-radius: rem(29px);
   border: none;
+  cursor: pointer;
+}
+
+@mixin transition {
+  transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .btn-download {
   @include btn();
+  @include transition();
   background-color: $dark-blue;
   padding: 1rem rem(40px);
   width: rem(193px);
+}
+
+.btn-download:hover {
+  background-color: $medium-blue;
 }
 
 .btn-download__v {
@@ -22,7 +32,12 @@
 
 .btn-what {
   @include btn();
+  @include transition();
   background-color: $dark-purple;
   padding: 1rem rem(29px);
   width: rem(139px);
+}
+
+.btn-what:hover {
+  background-color: $medium-purple;
 }

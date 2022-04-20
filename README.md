@@ -78,6 +78,7 @@ I think that there is much to learn about background images and layouts that I a
 - [Hexadecimal color code for transparency](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4) - Helped me find a color for the border of the separators so I didn't have to do complicated maneuvers to avoid the children to be affected by opacity.
 - [Injecting a Line Break](https://css-tricks.com/injecting-line-break/) - It helped me inject a line break so that the text in mobile would look like the design in a certain section.
 - [How To Edit Your Commits with 'git commit --amend'](https://smartlogic.io/blog/git-commit-amend/) - Very handy git command that I learned, haha made a bunch of mistakes in commits and was able to change them.
+- [cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) - I did not know you could set up this property so that it looks better when you hover over a button, I added it to the buttons of the page.
 
 ## Author
 

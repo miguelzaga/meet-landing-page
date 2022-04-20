@@ -3,13 +3,15 @@ $sm: rem(375px);
 $md: rem(768px);
 $lg: rem(1440px);
 
-$sm-md: calc(($sm + $md)/2); // 571px
-$md-lg: calc(($md + $lg)/2); // 1104px
+$sm-md: calc(($sm + $md) / 2); // 571px
+$md-lg: calc(($md + $lg) / 2); // 1104px
 
 // Colors
 $dark-blue: #4d96a9;
+$medium-blue: #71c0d4;
 $light-blue: #8fe3f9;
 $dark-purple: #855fb1;
+$medium-purple: #b18bdd;
 $light-purple: #d9b8ff;
 $black: #28283d;
 $white: #fafafa;
@@ -17,7 +19,7 @@ $grey: #87879d;
 $grey-25: #87879d40;
 
 // Typography
-$font: 'Red Hat Display', sans-serif;
+$font: "Red Hat Display", sans-serif;
 $regular: 500;
 $bold: 900;
 

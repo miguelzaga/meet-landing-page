@@ -79,6 +79,10 @@ footer {
   margin: 0 auto 0 auto;
 }
 
+.footer__btn-download.btn-download:hover {
+  background-color: $medium-purple;
+}
+
 .footer__btn-download .btn-download__v {
   color: $light-purple;
 }

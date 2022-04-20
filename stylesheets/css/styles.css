@@ -135,9 +135,15 @@ body {
   color: #fafafa;
   border-radius: 1.8125rem;
   border: none;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   background-color: #4d96a9;
   padding: 1rem 2.5rem;
   width: 12.0625rem;
+}
+
+.btn-download:hover {
+  background-color: #71c0d4;
 }
 
 .btn-download__v {
@@ -153,9 +159,15 @@ body {
   color: #fafafa;
   border-radius: 1.8125rem;
   border: none;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
   background-color: #855fb1;
   padding: 1rem 1.8125rem;
   width: 8.6875rem;
+}
+
+.btn-what:hover {
+  background-color: #b18bdd;
 }
 
 .separator {
@@ -553,6 +565,10 @@ footer {
 .footer__btn-download.btn-download {
   background-color: #855fb1;
   margin: 0 auto 0 auto;
+}
+
+.footer__btn-download.btn-download:hover {
+  background-color: #b18bdd;
 }
 
 .footer__btn-download .btn-download__v {
