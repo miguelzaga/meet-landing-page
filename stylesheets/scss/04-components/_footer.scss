@@ -23,6 +23,16 @@ footer {
   @include breakpoint($sm-md) {
     display: block;
   }
+  @include breakpoint($md-lg) {
+    display: none;
+  }
+}
+
+.footer__bg--desktop {
+  display: none;
+  @include breakpoint($md-lg) {
+    display: block;
+  }
 }
 
 .footer__blue-bg {

@@ -200,6 +200,11 @@ body {
   line-height: 1.625rem;
 }
 
+.main {
+  max-width: 93.75rem;
+  margin: auto;
+}
+
 .main__wrapper {
   margin: 0 1.5rem;
 }
@@ -477,6 +482,20 @@ footer {
 }
 @media (min-width: calc((23.4375rem + 48rem) / 2)) {
   .footer__bg--tablet {
+    display: block;
+  }
+}
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .footer__bg--tablet {
+    display: none;
+  }
+}
+
+.footer__bg--desktop {
+  display: none;
+}
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .footer__bg--desktop {
     display: block;
   }
 }
