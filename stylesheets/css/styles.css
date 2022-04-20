@@ -203,6 +203,7 @@ body {
 .main__wrapper {
   margin: 0 1.5rem;
 }
+
 .header {
   padding: 3rem 0 3.375rem 0;
   text-align: center;
@@ -416,6 +417,11 @@ body {
     margin: 0 auto 0 auto;
   }
 }
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .media-grid {
+    width: clamp(43.0625rem, 689px + 100vw - (48rem + 90rem) / 2, 69.375rem);
+  }
+}
 
 .media-grid__img {
   max-width: 9.4375rem;
@@ -426,6 +432,12 @@ body {
   .media-grid__img {
     max-width: 10.25rem;
     margin-bottom: 0;
+  }
+}
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .media-grid__img {
+    max-width: none;
+    width: clamp(10.25rem, 164px + (100vw - (48rem + 90rem) / 2) / 5, 15.9375rem);
   }
 }
 

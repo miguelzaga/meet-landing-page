@@ -1,25 +1,32 @@
 .media-grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    @include breakpoint($sm){
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    @include breakpoint($md){
-        flex-wrap: nowrap;
-        width: rem(689px);
-        margin: 0 auto 0 auto;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  @include breakpoint($sm) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @include breakpoint($md) {
+    flex-wrap: nowrap;
+    width: rem(689px);
+    margin: 0 auto 0 auto;
+  }
+  @include breakpoint($md-lg) {
+    width: clamp(rem(689px), calc(689px + 100vw - $md-lg), rem(1110px));
+  }
 }
 
 .media-grid__img {
-    max-width: rem(151px);
-    margin-bottom: 1.5rem;
-    border-radius: 0.5rem;
-    @include breakpoint($md){
-        max-width: rem(164px);
-        margin-bottom: 0;
-    }
+  max-width: rem(151px);
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  @include breakpoint($md) {
+    max-width: rem(164px);
+    margin-bottom: 0;
+  }
+  @include breakpoint($md-lg) {
+    max-width: none;
+    width: clamp(rem(164px), calc(164px + (100vw - $md-lg)/5), rem(255px));
+  }
 }
