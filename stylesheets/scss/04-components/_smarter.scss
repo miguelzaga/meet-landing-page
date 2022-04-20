@@ -14,6 +14,11 @@
     margin: 3em auto 0 auto;
     width: rem(573px);
   }
+  @include breakpoint($md-lg){
+    margin-top: 5em;
+    width: rem(540px);
+  }
+
 }
 
 .smarter__subtitle {
@@ -45,5 +50,8 @@
   white-space: pre;
   @include breakpoint($md){
     white-space: normal;
+  }
+  @include breakpoint($md-lg){
+    white-space: pre;
   }
 }

@@ -361,6 +361,12 @@ body {
     width: 35.8125rem;
   }
 }
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .smarter__container-txt {
+    margin-top: 5em;
+    width: 33.75rem;
+  }
+}
 
 .smarter__subtitle {
   color: #4d96a9;
@@ -395,6 +401,11 @@ body {
 @media (min-width: 48rem) {
   .smarter__description--br::before {
     white-space: normal;
+  }
+}
+@media (min-width: calc((48rem + 90rem) / 2)) {
+  .smarter__description--br::before {
+    white-space: pre;
   }
 }
 
