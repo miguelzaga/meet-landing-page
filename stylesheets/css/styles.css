@@ -234,6 +234,13 @@ body {
     margin-top: -0.1px;
   }
 }
+@media (min-width: 90rem) {
+  .hero {
+    position: relative;
+    width: 100%;
+  }
+}
+
 .hero__img {
   position: relative;
   right: 5.2%;

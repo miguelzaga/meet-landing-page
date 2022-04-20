@@ -9,6 +9,8 @@
         margin-top: -0.1px;
     }
     @include breakpoint($lg){
+        position: relative;
+        width: 100%;
     }
 
 }
