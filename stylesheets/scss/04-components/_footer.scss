@@ -1,15 +1,22 @@
 footer {
   position: relative;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   align-items: center;
   bottom: rem(27px);
+  @include breakpoint($lg) {
+    // flex-direction: row;
+  }
 }
 
 .footer__bg {
   position: absolute;
   z-index: -2;
   height: rem(428px);
+  @include breakpoint($lg) {
+    top: 0;
+    height: rem(308px);
+  }
 }
 
 .footer__bg--mobile {
@@ -23,14 +30,14 @@ footer {
   @include breakpoint($sm-md) {
     display: block;
   }
-  @include breakpoint($md-lg) {
+  @include breakpoint($lg) {
     display: none;
   }
 }
 
 .footer__bg--desktop {
   display: none;
-  @include breakpoint($md-lg) {
+  @include breakpoint($lg) {
     display: block;
   }
 }
@@ -44,39 +51,72 @@ footer {
   height: rem(428px);
   background-color: $dark-blue;
   opacity: calc(100% - 10.45%);
+  @include breakpoint($lg) {
+    height: rem(308px);
+  }
 }
 
-.footer__container-txt {
+.footer__wrapper {
   padding-top: rem(92px);
   margin: 0 $margin-sm 0 $margin-sm;
-  color: $white;
-  font-family: $font;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  @include breakpoint($lg) {
+    padding-top: rem(116px);
+    width: rem(1110px);
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .footer__title {
+  color: $white;
+  font-family: $font;
+  text-align: center;
   width: rem(327px);
   margin: 0 auto 1.5rem auto;
   @include breakpoint($md) {
     width: rem(457px);
     margin-bottom: 2rem;
   }
+  @include breakpoint($lg) {
+    margin: 0 rem(125px) 0 0;
+    width: rem(350px);
+    text-align: left;
+  }
 }
 
 .footer__description {
+  color: $white;
+  font-family: $font;
+  text-align: center;
   font-weight: $regular;
   font-size: rem(18px);
   line-height: rem(26px);
+  margin: 0 auto 2rem auto;
   margin-bottom: 2rem;
-  max-width: rem(553px);
-  @include breakpoint($md){
+  width: rem(327px);
+  @include breakpoint($md) {
+    width: rem(553px);
     margin-bottom: rem(40px);
+  }
+  @include breakpoint($lg) {
+    margin: 0 rem(92px) 0 0;
+    width: rem(350px);
+    text-align: left;
   }
 }
 
 .footer__btn-download.btn-download {
+  height: rem(58px);
+  padding: 0;
   background-color: $dark-purple;
   margin: 0 auto 0 auto;
+  @include breakpoint($lg){
+    margin: 0;
+  }
 }
 
 .footer__btn-download.btn-download:hover {

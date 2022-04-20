@@ -1,16 +1,16 @@
 .hero {
     width: calc(100% + 10.4%);
     @include breakpoint($md){
-        height: rem(303px);
-        justify-content: space-between;
-    }
-    @include breakpoint($md-lg){
-        height: clamp(0.1px, calc($lg - 100vw), rem(303px));
-        margin-top: -0.1px;
-    }
-    @include breakpoint($lg){
         position: relative;
         width: 100%;
+        height: rem(303px);
+    }
+    @include breakpoint($md-lg){
+        height: clamp(rem(47px), calc($lg - 100vw), rem(303px));
+        // margin-top: -0.1px;
+    }
+    @include breakpoint($lg){
+        // position: relative;
     }
 
 }
@@ -44,5 +44,10 @@
     @include breakpoint($md){
         display: block;
         right: -2rem;
+        // right: 0;
+        top: rem(47px);
+    }
+    @include breakpoint($md-lg){
+        // right: -2rem;
     }
 }

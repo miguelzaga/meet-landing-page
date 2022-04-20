@@ -13,7 +13,7 @@
     margin: 0 auto 0 auto;
   }
   @include breakpoint($md-lg) {
-    width: clamp(rem(689px), calc(689px + 100vw - $md-lg), rem(1110px));
+    width: clamp(rem(689px), calc(689px + 108vw - $md-lg), rem(1110px));
   }
 }
 
@@ -27,6 +27,6 @@
   }
   @include breakpoint($md-lg) {
     max-width: none;
-    width: clamp(rem(164px), calc(164px + (100vw - $md-lg)/5), rem(255px));
+    width: clamp(rem(164px), calc(164px + (100vw - $md-lg)/3), rem(255px));
   }
 }
