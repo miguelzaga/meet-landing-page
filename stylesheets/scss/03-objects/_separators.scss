@@ -1,37 +1,37 @@
 .separator {
-    position: relative;
-    width: rem(56px);
-    height: rem(140px);
-    margin: 4rem auto 0 auto;
-    @include breakpoint ($sm-md){
-        margin-top: 5em;
-    }
-    @include breakpoint ($md-lg){
-        margin-top: rem(72px);
-    }
+  position: relative;
+  width: rem(56px);
+  height: rem(140px);
+  margin: 4rem auto 0 auto;
+  @include breakpoint($sm-md) {
+    margin-top: 5em;
+  }
+  @include breakpoint($md-lg) {
+    margin-top: rem(72px);
+  }
 }
 
 .separator__vl {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    border-right: 1px $grey-25 solid;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-right: 1px $grey-25 solid;
 }
 
 .separator__circle {
-    position: absolute;
-    background-color: $white;
-    width: rem(56px);
-    height: rem(56px);
-    bottom: 0;
-    border: 1px $grey-25 solid;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $grey;
-    font-family: $font;
-    font-weight: $bold;
-    font-size: 1rem;
-    line-height: rem(26px);
+  position: absolute;
+  background-color: $white;
+  width: rem(56px);
+  height: rem(56px);
+  bottom: 0;
+  border: 1px $grey-25 solid;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $grey;
+  font-family: $font;
+  font-weight: $bold;
+  font-size: 1rem;
+  line-height: rem(26px);
 }

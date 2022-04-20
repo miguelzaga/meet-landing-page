@@ -1,53 +1,46 @@
 .hero {
-    width: calc(100% + 10.4%);
-    @include breakpoint($md){
-        position: relative;
-        width: 100%;
-        height: rem(303px);
-    }
-    @include breakpoint($md-lg){
-        height: clamp(rem(47px), calc($lg - 100vw), rem(303px));
-        // margin-top: -0.1px;
-    }
-    @include breakpoint($lg){
-        // position: relative;
-    }
-
+  width: calc(100% + 10.4%);
+  @include breakpoint($md) {
+    position: relative;
+    width: 100%;
+    height: rem(303px);
+  }
+  @include breakpoint($md-lg) {
+    height: clamp(rem(47px), calc($lg - 100vw), rem(303px));
+  }
 }
 
 .hero__img {
-    position: relative;
-    right: calc(10.4% / 2);
-    @include breakpoint($md){
-        display: none;
-    }
+  position: relative;
+  right: calc(10.4% / 2);
+  @include breakpoint($md) {
+    display: none;
+  }
 }
 
 .hero__img-left {
-    display: none;
-    position: absolute;
-    width: rem(394px);
-    @include breakpoint($md){
-        display: block;
-        left: rem(-26px);
-    }
-    @include breakpoint($md-lg){
-        display: block;
-        left: -2rem;
-    }
+  display: none;
+  position: absolute;
+  width: rem(394px);
+  @include breakpoint($md) {
+    display: block;
+    left: rem(-26px);
+  }
+  @include breakpoint($md-lg) {
+    display: block;
+    left: -2rem;
+  }
 }
 
 .hero__img-right {
-    display: none;
-    position: absolute;
-    width: rem(394px);
-    @include breakpoint($md){
-        display: block;
-        right: -2rem;
-        // right: 0;
-        top: rem(47px);
-    }
-    @include breakpoint($md-lg){
-        // right: -2rem;
-    }
+  display: none;
+  position: absolute;
+  width: rem(394px);
+  @include breakpoint($md) {
+    display: block;
+    right: -2rem;
+    top: rem(47px);
+  }
+  @include breakpoint($md-lg) {
+  }
 }

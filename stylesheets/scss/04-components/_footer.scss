@@ -1,11 +1,8 @@
 footer {
   position: relative;
-  // display: flex;
-  // flex-direction: column;
   align-items: center;
   bottom: rem(27px);
   @include breakpoint($lg) {
-    // flex-direction: row;
   }
 }
 

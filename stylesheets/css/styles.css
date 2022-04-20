@@ -246,6 +246,7 @@ body {
     height: clamp(2.9375rem, 90rem - 100vw, 18.9375rem);
   }
 }
+
 .hero__img {
   position: relative;
   right: 5.2%;

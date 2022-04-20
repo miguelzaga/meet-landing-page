@@ -27,6 +27,6 @@
   }
   @include breakpoint($md-lg) {
     max-width: none;
-    width: clamp(rem(164px), calc(164px + (100vw - $md-lg)/3), rem(255px));
+    width: clamp(rem(164px), calc(164px + (100vw - $md-lg) / 3), rem(255px));
   }
 }

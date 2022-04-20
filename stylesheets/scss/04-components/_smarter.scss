@@ -1,7 +1,7 @@
 .smarter {
   margin: 4em auto 0 auto;
   max-width: rem(calc(2 * 151px + 25px));
-  @include breakpoint($md){
+  @include breakpoint($md) {
     max-width: none;
   }
 }
@@ -10,15 +10,14 @@
   font-family: $font;
   margin-top: 4em;
   text-align: center;
-  @include breakpoint($md){
+  @include breakpoint($md) {
     margin: 3em auto 0 auto;
     width: rem(573px);
   }
-  @include breakpoint($md-lg){
+  @include breakpoint($md-lg) {
     margin-top: 5em;
     width: rem(540px);
   }
-
 }
 
 .smarter__subtitle {
@@ -32,13 +31,13 @@
 }
 
 .smarter__title {
-    color: $black;
-    margin-bottom: 2rem;
-    @include breakpoint($md){
-      width: rem(445px);
-      margin-left: auto;
-      margin-right: auto;
-    }
+  color: $black;
+  margin-bottom: 2rem;
+  @include breakpoint($md) {
+    width: rem(445px);
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .smarter__description {
@@ -48,10 +47,10 @@
 .smarter__description--br::before {
   content: "\A";
   white-space: pre;
-  @include breakpoint($md){
+  @include breakpoint($md) {
     white-space: normal;
   }
-  @include breakpoint($md-lg){
+  @include breakpoint($md-lg) {
     white-space: pre;
   }
 }
