@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [URL](https://www.frontendmentor.io/solutions/meet-landing-page-with-scss-HkHiesaV5)
 - Live Site URL: [URL](https://miguelzaga.github.io/meet-landing-page/)
 
 ## My process
